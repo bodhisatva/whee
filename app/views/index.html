@@ -11,7 +11,7 @@
 
   <link href="" rel="shortcut icon" type="image/x-icon">
   <link href="/bower_components/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
-  <link href="/styles/css/sticky-footer.css" rel="stylesheet">
+  <link href="/styles/css/general.css" rel="stylesheet">
   <!--TODO: add one congfiguration file for css and loop them-->
   <!--  {% for cssFile in cssFiles %}
     <link rel="stylesheet" href="{{csFile}}">{%endfor%} -->
@@ -25,8 +25,9 @@
 
 <body ng-app="app">
   <header data-ng-include="'/modules/core/views/header.html'"></header>
-  <div class="container">
+  <div class="container text-center">
     <div ui-view></div>
+    <span class=" glyphicon glyphicon-flash"></span>
   </div>
   <footer data-ng-include="'/modules/core/views/footer.html'"></footer>
   <!--Livereload script rendered -->
