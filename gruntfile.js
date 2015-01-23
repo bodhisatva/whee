@@ -73,9 +73,6 @@ module.exports = function(grunt) {
 
   require('load-grunt-tasks')(grunt);
 
-  // Making grunt default to force in order not to break the project.
-  grunt.option('force', true);
-
   grunt.registerTask('default', ['concurrent:default']);
   grunt.registerTask('debug', ['lint', 'concurrent:debug']);
 
