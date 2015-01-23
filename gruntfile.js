@@ -6,7 +6,8 @@ module.exports = function(grunt) {
     serverViews: ['app/views/**/*.html'],
     clientViews: ['public/modules/**/*.html'],
     serverJS: ['gruntfile.js', 'server.js', 'app/**/**/*.js'],
-    clientJS: ['public/javascript/**/*.js','public/*.js','public/modules/core/**/*.js'],
+    clientJS: ['public/javascript/**/*.js', 'public/*.js', 'public/modules/core/**/*.js'],
+    clientCSS: ['public/styles/css/*.css']
   };
 
   grunt.initConfig({
@@ -18,10 +19,10 @@ module.exports = function(grunt) {
           livereload: true
         }
       },
-      clientViews : {
+      clientViews: {
         files: watchFiles.clientViews,
         options: {
-          livereload:true
+          livereload: true
         }
       },
       serverJS: {
@@ -33,6 +34,12 @@ module.exports = function(grunt) {
       },
       clientJS: {
         files: watchFiles.clientJS,
+        options: {
+          livereload: true,
+        }
+      },
+      clientCSS: {
+        files: watchFiles.clientCSS,
         options: {
           livereload: true,
         }
