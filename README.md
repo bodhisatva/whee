@@ -20,3 +20,4 @@ After the installation run grunt default task:
 ```
 $ grunt
 ```
+Open browser and type localhost:3000 in the address bar.
