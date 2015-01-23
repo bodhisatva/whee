@@ -1,4 +1,8 @@
 
+h1.title{
+  font-size: 60px;
+}
+
 span.glyphicon-flash {
   padding:3%;
   font-size: 4em;
