@@ -3,7 +3,7 @@ var router = express.Router();
 var path = require('path');
 
 router.get('/', function(req, res) {
-  res.render('index', {'title' : 'Boilerplate'});
+  res.render('index', {'title' : 'Bax'});
 });
 
 module.exports = router;
