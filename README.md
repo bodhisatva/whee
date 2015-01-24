@@ -1,5 +1,5 @@
 ## BAX
-Basic boilerplate for rapid prototyping with Express, Angular and Bootstrap.
+Basic boilerplate for rapid prototyping with Bootstrap, Angular and Express.
 
 ## Prerequisites
 Make sure you have Node.js, Bower and grunt-cli installed on your machine. If not, download Node.js (http://www.nodejs.org/download/) and install the package. With npm install globally Bower and grunt-cli via command line:
