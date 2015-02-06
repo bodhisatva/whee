@@ -1,0 +1,74 @@
+ {
+ 	"offers": [
+ 		{
+ 			"id":			      1,
+ 			"name":			    "Hervanta",
+ 			"description":	"Tutustu ainutlaatuiseen arkkitehtuuriin ja nauti lumoavasta ilmapiiristä!",
+ 			"image":		    "images/offer-hervanta.jpg",
+ 			"price":		    8
+		},
+		{
+ 			"id":			      2,
+ 			"name":			    "Reykjavik",
+ 			"description":	"Kuumaa ja kylmää, tulivuoria ja geysirejä! Maailman pienin pohjoismaa kutsuu sinua!",
+ 			"image":		    "images/offer-reykjavik.jpg",
+ 			"price":		    300
+    },
+		{
+ 			"id":			      3,
+ 			"name":			    "Bermuda",
+ 			"description":	"Mystistä menoa ja arkeologisia aarteita, vain menolippuja tarjolla!",
+ 			"image":		    "images/offer-bermuda.jpg",
+ 			"price":		    120
+		},
+		{
+ 			"id":			      4,
+ 			"name":			    "Kouvola",
+ 			"description":	"Ajaton miljöö ja leppoisa paikallisväestä takaavat onnistuneen reissun!",
+ 			"image":		    "images/offer-kouvola.jpg",
+ 			"price":		    220
+		},
+		{
+ 			"id":			      5,
+ 			"name":			    "Pariisi",
+ 			"description":	"Nauti viinilasillisesta Eiffel-tornin varjossa, c'est magnifique!",
+ 			"image":		    "images/offer-pariisi.jpg",
+ 			"price":		    300
+		},
+		{
+ 			"id":			      6,
+ 			"name":			    "Tukholma",
+ 			"description":	"Nauti kaupunkilomasta naapurimaan kuhisevassa metropolissa",
+ 			"image":		    "images/offer-tukholma.jpg",
+ 			"price":		    300
+		},
+		{
+ 			"id":		   	    7,
+ 			"name":			    "Novosibirsk",
+ 			"description":	"Siperian radan ehdoton helmi, kiehtova kaupunki vain 3300km Moskovasta itään!",
+ 			"image":		    "images/offer-novosibirsk.jpg",
+ 			"price":		    320
+		},
+		{
+ 			"id":			      8,
+ 			"name":			    "Malé",
+ 			"description":  "Paratiisi maan päällä! Anna malediivien viedä sydämesi!",
+ 			"image":		    "images/offer-malediivit.jpg",
+ 			"price":		    1200
+		},
+		{
+ 			"id":		        9,
+ 			"name":		 	    "Tampere",
+ 			"description":	"Kaikkea oikeassa suhteessa: kulttuuria, kauneutta ja loistavaa tunnelmaa!",
+ 			"image":		    "images/offer-tampere.jpg",
+ 			"price":		    35
+		},
+    {
+      "id":           10,
+      "name":         "New York",
+      "description":  "Maailman kuuluisin kaupunkin on täynnä kuhinaa vuorokauden kaikkina aikoina!",
+      "image":        "images/offer-new-york.jpg",
+      "price":        2000
+    }
+ 	]
+ }
