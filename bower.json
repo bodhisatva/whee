@@ -1,8 +1,8 @@
 {
-  "name": "Bax",
+  "name": "whee",
   "version": "0.0.1",
   "authors": "bodhisatva",
-  "description": "Basic boilerplate for rapid prototyping with Bootstrap, Angular and Express",
+  "description": "whee-proto",
 
   "dependencies": {
     "angular-ui-router": "~0.2.13",
