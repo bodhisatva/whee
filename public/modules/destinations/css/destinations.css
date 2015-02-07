@@ -1,0 +1,36 @@
+.price {
+  background-color: #0000FF;
+  color: #FFFFFF;
+  font-weight: bold;
+}
+.per-person {
+  color: #1975FF;
+  font-size: 12px;
+}
+.shopping-cart {
+  background-color: #1975FF;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  text-align: center;
+  font-weight: bold;
+}
+.city-names {
+  font-family: pacifico;
+  font-size: 1.5em;
+  background-color: #FFFFFF;
+}
+.col-sm-7.three-five {
+  width: 60% !important;
+}
+.col-sm-5.three-two {
+  width: 40% !important;
+}
+.col-sm-4 {
+  padding: 4px;
+}
+.col-sm-6 {
+  padding: 4px;
+}
+.col-sm-6.price {
+  padding-left: 5px;
+}
