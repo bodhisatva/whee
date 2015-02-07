@@ -1,7 +1,10 @@
-.badge{
+.badge {
   background-color: #0000FF;
 }
-
-.navbar-inverse .navbar-nav>li>a{
-  color:#FFFFFF;
+.navbar {
+  border-radius: 0;
+  padding-right: 5%;
+}
+.navbar-inverse .navbar-nav>li>a {
+  color: #FFFFFF;
 }
