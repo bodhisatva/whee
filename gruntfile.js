@@ -4,10 +4,10 @@ module.exports = function(grunt) {
 
   var watchFiles = {
     serverViews: ['app/views/**/*.html'],
-    clientViews: ['public/modules/**/*.html'],
+    clientViews: ['public/modules/**/**/*.html'],
     serverJS: ['gruntfile.js', 'server.js', 'app/**/**/*.js'],
-    clientJS: ['public/javascript/**/*.js', 'public/*.js', 'public/modules/core/**/*.js'],
-    clientCSS: ['public/modules/**/*.css']
+    clientJS: ['public/javascript/**/*.js', 'public/*.js', 'public/modules/**/**/*.js'],
+    clientCSS: ['public/modules/**/**/*.css']
   };
 
   grunt.initConfig({
