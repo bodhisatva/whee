@@ -2,6 +2,7 @@
   background-color: #0000FF;
   color: #FFFFFF;
   font-weight: bold;
+  padding: 2% 0 2% 4%;
 }
 .per-person {
   color: #1975FF;
@@ -13,10 +14,12 @@
   color: #FFFFFF;
   text-align: center;
   font-weight: bold;
+  padding: 2% 0;
 }
 .city-names {
   font-family: pacifico;
   font-size: 1.5em;
+  padding: 2% 0;
   background-color: #FFFFFF;
   text-align: center;
 }
