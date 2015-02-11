@@ -2,7 +2,7 @@
 
 /*'use strict'
 
-angular.module('core').controller('HeaderController', ['$scope',
+angular.module('core').controller('HeaderCtrl', ['$scope',
   function($scope) {}
 ]);
 */

@@ -1,29 +1,27 @@
 /*Background image*/
+
 body {
   background: url('../images/bg.jpg') center center no-repeat fixed;
   background-size: cover;
 }
-
 /*All main content inside this container, except header*/
-.content-box{
-  padding-top: 5%;
-}
 
+.content-box {
+  padding: 5% 0;
+}
 /*Setting maximum width for content in 1200px >*/
+
 @media (min-width: 1200px) {
   .container {
     max-width: 1100px;
   }
 }
-/*Mobile view rules*/
-.col-xs-12 {
-  max-width: 254px;
-  float: none;
-  margin: 0 auto;
-  padding: 5px 0;
+.row {
+  margin: 0;
 }
 /*Five column layout rules*/
-.col-xs-15, .col-sm-15, .col-md-15, .col-lg-15 {
+
+.col-xs-15 .col-sm-15 .col-md-15 .col-lg-15 {
   position: relative;
   min-height: 1px;
   padding-right: 10px;
@@ -37,6 +35,7 @@ body {
   .col-sm-15 {
     width: 20%;
     float: left;
+    padding: 5px 10px;
   }
 }
 @media (min-width: 992px) {

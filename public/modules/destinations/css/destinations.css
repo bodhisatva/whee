@@ -1,20 +1,6 @@
-.price {
-  background-color: #0000FF;
-  color: #FFFFFF;
-  font-weight: bold;
-  padding: 2% 0 2% 4%;
-}
 .per-person {
   color: #1975FF;
   font-size: 12px;
-}
-.shopping-cart {
-  background-color: #1975FF;
-  text-transform: uppercase;
-  color: #FFFFFF;
-  text-align: center;
-  font-weight: bold;
-  padding: 2% 0;
 }
 .city-names {
   font-family: pacifico;
@@ -22,4 +8,25 @@
   padding: 2% 0;
   background-color: #FFFFFF;
   text-align: center;
+}
+.col-xs-6 .price {
+  background-color: #0000FF;
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: 1em;
+  padding: 2% 0 2% 4%;
+}
+.col-xs-6 {
+  text-align: center;
+  padding: 10px;
+}
+
+.crop {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+.crop img {
+  height: auto;
+  width: 100%
 }

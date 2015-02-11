@@ -1,0 +1,12 @@
+.shopping-cart {
+  background-color: #1975FF;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  text-align: center;
+  font-weight: bold;
+  padding: 2% 0;
+}
+.shopping-cart a {
+  color: white;
+  text-decoration: none;
+}
