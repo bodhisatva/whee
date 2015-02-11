@@ -9,7 +9,7 @@
   background-color: #FFFFFF;
   text-align: center;
 }
-.col-md-15 .price {
+.col-xs-6 .price {
   background-color: #0000FF;
   color: #FFFFFF;
   font-weight: bold;
@@ -18,4 +18,15 @@
 }
 .col-xs-6 {
   text-align: center;
+  padding: 10px;
+}
+
+.crop {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+.crop img {
+  height: auto;
+  width: 100%
 }

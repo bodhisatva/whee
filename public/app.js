@@ -12,18 +12,5 @@ app.config(['$urlRouterProvider', '$stateProvider', function($urlRouterProvider,
     .state('home', {
       url: '/',
       templateUrl: 'modules/core/views/home.html',
-      controller: 'HomeCtrl'
     })
-
-  /* app.service('citiesServices', function($http, $q) {
-     var deferred = $q.defer();
-     $http.get('/resources/offers.json').then(function(data) {
-       deferred.resolve(data);
-     });
-     this.getData = function() {
-       return .deferred.promise;
-     }
-
-   });*/
-
 }]);
