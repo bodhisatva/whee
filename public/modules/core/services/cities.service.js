@@ -1,3 +1,4 @@
+/*Reading City JSON file*/
  'use strict'
 
  var app = angular.module('app');
