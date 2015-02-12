@@ -7,7 +7,7 @@ module.exports = function(grunt) {
     clientViews: ['public/modules/**/**/*.html'],
     serverJS: ['gruntfile.js', 'server.js', 'app/**/**/*.js'],
     clientJS: ['public/javascript/**/*.js', 'public/*.js', 'public/modules/**/**/*.js'],
-    clientCSS: ['public/modules/**/**/*.css']
+    clientCSS: ['public/modules/core/css/header.less', 'public/modules/core/css/home.less', 'public/modules/destinations/css/destinations.less', 'public/modules/shoppingCartButton/css/shopping.cart.button.less']
   };
 
   grunt.initConfig({
@@ -27,7 +27,6 @@ module.exports = function(grunt) {
       },
       serverJS: {
         files: watchFiles.serverJS,
-        /*tasks: ['jshint'],*/
         options: {
           livereload: true
         }
@@ -40,8 +39,19 @@ module.exports = function(grunt) {
       },
       clientCSS: {
         files: watchFiles.clientCSS,
+        tasks: ["less"],
         options: {
           livereload: true,
+        }
+      }
+    },
+    less: {
+      development: {
+        options: {
+          paths: watchFiles.clientCSS,
+        },
+        files: {
+          'public/css/app.css': watchFiles.clientCSS
         }
       }
     },
