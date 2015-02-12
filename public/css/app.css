@@ -1,79 +1,78 @@
-.badge {
-  background-color: #0000FF;
-}
-.navbar {
+.navbar-inverse {
   border-radius: 0;
 }
-.navbar > .container .navbar-brand,
-.navbar > .container-fluid .navbar-brand {
-  margin-right: 10px;
+.navbar-inverse .navbar-nav > li > a {
+  color: #FFFFFF;
+}
+.navbar-inverse .navbar-brand {
+  margin-left: 5px !important;
 }
 .navbar-right {
   margin-right: 0;
 }
-.navbar-inverse .navbar-nav > li > a {
-  color: #FFFFFF;
+.navbar-right .badge {
+  background-color: #0000FF;
 }
 
 /*Background image*/
 body {
   background: url('../modules/core/images/bg.jpg') center center no-repeat fixed;
   background-size: cover;
+  /*All main content inside this container, except header*/
+  /*Setting maximum width for content in 1200px >*/
+  /*Five column layout rules*/
 }
-/*All main content inside this container, except header*/
-.content-box {
+body .content-box {
   padding: 5% 0;
 }
-/*Setting maximum width for content in 1200px >*/
 @media (min-width: 1200px) {
-  .container {
+  body .container {
     max-width: 1100px;
   }
 }
-.row {
+body .row {
   margin: 0;
 }
-/*Five column layout rules*/
-.col-xs-15 .col-sm-15 .col-md-15 .col-lg-15 {
+body .col-xs-15 .col-sm-15 .col-md-15 .col-lg-15 {
   position: relative;
   min-height: 1px;
   padding-right: 10px;
   padding-left: 10px;
 }
-.col-xs-15 {
+body .col-xs-15 {
   width: 20%;
   float: left;
 }
 @media (min-width: 768px) {
-  .col-sm-15 {
+  body .col-sm-15 {
     width: 20%;
     float: left;
     padding: 5px 10px;
   }
 }
 @media (min-width: 992px) {
-  .col-md-15 {
+  body .col-md-15 {
     width: 20%;
     float: left;
   }
 }
 @media (min-width: 1200px) {
-  .col-lg-15 {
+  body .col-lg-15 {
     width: 20%;
     float: left;
   }
 }
 
-.per-person {
-  color: #1975FF;
-  font-size: 12px;
-}
 .city-names {
   font-family: pacifico;
   font-size: 1.5em;
   padding: 2% 0;
   background-color: #FFFFFF;
   text-align: center;
+}
+.col-xs-6 {
+  text-align: center;
+  padding: 10px;
 }
 .col-xs-6 .price {
   background-color: #0000FF;
@@ -82,29 +81,19 @@ body {
   font-size: 1em;
   padding: 2% 0 2% 4%;
 }
-.col-xs-6 {
-  text-align: center;
-  padding: 10px;
-}
-.crop {
-  height: 100%;
-  width: 100%;
-  overflow: hidden;
-}
-.crop img {
-  height: auto;
-  width: 100%;
+.col-xs-6 .price .per-person {
+  color: #1975FF;
+  font-size: 13px;
 }
 
 .shopping-cart {
   background-color: #1975FF;
   text-transform: uppercase;
-  color: #FFFFFF;
   text-align: center;
   font-weight: bold;
   padding: 2% 0;
 }
 .shopping-cart a {
-  color: white;
+  color: #FFFFFF;
   text-decoration: none;
 }
