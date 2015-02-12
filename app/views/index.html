@@ -11,16 +11,9 @@
 
   <link href="/modules/core/images/whee-logo-black.png" rel="shortcut icon" type="image/x-icon">
   <link href="/bower_components/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
-  <link href="/modules/core/css/home.css" rel="stylesheet">
-  <link href="/modules/core/css/header.css" rel="stylesheet">
-  <link href="/modules/destinations/css/destinations.css" rel="stylesheet">
-  <link href="/modules/shoppingCartButton/css/shopping.cart.button.css" rel="stylesheet">
-
+  <link href="/css/app.css" rel="stylesheet">
+  <!--Pacifico font-->
   <link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
-  <!--TODO: add one congfiguration file for css and loop them-->
-  <!--  {% for cssFile in cssFiles %}
-    <link rel="stylesheet" href="{{csFile}}">{%endfor%} -->
-
   <!-- HTML5 Shim -->
   <!--[if lt IE 9]>
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -31,6 +24,7 @@
 <body ng-app="app">
   <!--Fixed navigation block-->
   <header data-ng-include="'/modules/core/views/header.html'"></header>
+
   <!--Main content-->
   <div class="container content-box">
     <div ui-view></div>
@@ -50,8 +44,6 @@
   <!--Hamburger menu js components-->
   <script src="/bower_components/bootstrap/js/collapse.js"></script>
   <script src="/bower_components/bootstrap/js/transition.js"></script>
-  <!--Dropdown menu for shopping cart button-->
-  <script src="/bower_components/bootstrap/js/dropdown.js"></script>
 </body>
 
 </html>

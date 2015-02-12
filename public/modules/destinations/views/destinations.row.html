@@ -1,6 +1,6 @@
 <!--First destination column-->
 <div class="row crop" data-ng-controller="HomeCtrl">
-  <div class="col-sm-15 col-xs-6" data-ng-repeat="city in cityInformation">
+  <div class="col-sm-15 col-xs-6 " data-ng-repeat="city in cityInformation">
     <div class="">
       <img class="img-responsive" data-ng-src="{{city.image}}" alt="tampere">
     </div>
@@ -14,4 +14,3 @@
     <div data-ng-include="'/modules/shoppingCartButton/views/shopping.cart.button.html'"></div>
   </div>
 </div>
-
