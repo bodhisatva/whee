@@ -9,7 +9,7 @@ $ npm install -g bower
 $ npm install -g grunt-cli
 ```
 
-Start application by installing Node.js depedencies in application folder (path/to/installation/vanilla_javascript_exercises):
+Start application by installing Node.js depedencies in application folder (path/to/installation/whee):
 
 ```
 $ npm install
