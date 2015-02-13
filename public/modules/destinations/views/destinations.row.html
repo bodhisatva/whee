@@ -1,8 +1,7 @@
 <!--Cities-->
 <div class="row" data-ng-controller="HomeCtrl">
   <div class="col-sm-15 col-xs-6 " data-ng-repeat="city in cityInformation">
-    <!--Rivitysongelma-->
-    <img class="img-responsive" data-ng-src="{{city.image}}" alt="tampere">
+    <img class="img-responsive" data-ng-src="{{city.image}}" alt="{{city.name}}">
     <div class="city-names">
       {{city.name}}
     </div>
